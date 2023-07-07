@@ -34,8 +34,8 @@ const ReviewSlider = () => {
 
 
   return (
-    <div className='text-white'>
-        <div className='h-[190px] max-w-maxContent'>
+    <div className='text-white mb-10 mt-5 flex justify-center align-center mx-auto '>
+        <div className='max-h-max max-w-maxContent'>
             <Swiper
             slidesPerView={4}
             spaceBetween={24}
@@ -45,7 +45,7 @@ const ReviewSlider = () => {
                 delay: 2500,
             }}
             modules={[FreeMode, Pagination, Autoplay]}
-            className='w-full'
+            className='w-screen'
             >
 
                 {

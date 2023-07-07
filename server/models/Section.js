@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Define the Section schema
-const sectionSchema = new mongoose.Schema({
+const sectionSchema = new mongoose.Schema({ 
 	sectionName: {
 		type: String,
 	},
