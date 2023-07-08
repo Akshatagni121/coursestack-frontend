@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://coursestack.vercel.app/",
+		origin:"https://coursestack.vercel.app",
 		credentials:true,
 	})
 )
